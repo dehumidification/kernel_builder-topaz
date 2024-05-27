@@ -26,8 +26,8 @@ env:
   REPO: ${{ github.event.inputs.repo }}
   BRANCH: ${{ github.event.inputs.branch }}
   GKI: ${{ github.event.inputs.gki }}
-  token: ${{ secrets.token }}
-  chat_id: ${{ secrets.chat_id }}
+  TOKEN: ${{ secrets.TOKEN }}
+  CHAT_ID: ${{ secrets.CHAT_ID }}
 
 jobs:
   kernel-build:
